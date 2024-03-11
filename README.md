@@ -2,7 +2,7 @@
 
 ## Descripción del Problema
 
-**Este ejercicio implementa el TAD Rational**
+**Este ejercicio implementa la Estructura Pila**
 
 ## Ejecución
 
