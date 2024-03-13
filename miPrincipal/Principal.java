@@ -14,6 +14,8 @@ public class Principal{
         //se desapila
         pila.retirar();
         System.out.println("El tope de la pilar es "+pila.cima());
+        pila.retirar();
+        System.out.println("El tope de la pilar es "+pila.cima());
 
     }
 
