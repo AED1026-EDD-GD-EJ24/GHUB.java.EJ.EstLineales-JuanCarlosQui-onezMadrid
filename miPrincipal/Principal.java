@@ -25,6 +25,9 @@ public class Principal {
                 case 2:
                    DemoStack.menu();
                    break;
+                   case 2:
+                   DemoDelimitadores.menu();
+                   break;
                 case 0:
                     System.out.println("ADIOS!");
                     consola.close();
