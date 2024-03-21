@@ -1,5 +1,7 @@
 package miPrincipal;
 
+import java.util.Enumeration;
+
 public class DemoTablaDispersion {
     public static void menu(){
         System.out.println("************************");
@@ -24,7 +26,18 @@ public class DemoTablaDispersion {
         System.out.println(tabla.get("Pedro"));
 
         //En este caso regresa un null ya que no hay ningun objeto asociado a la clave rolando
+        System.out.println(tabla.get("Rolando"));
+        /*
+         * Obtengo una enumeracion de las claves existentes en la 
+         * tabla se recorre por cada una se accede al alemento asosciad par mostrar "clave-valor"
+         */
         
+        String aux;
+        Enumeration<String> keys = tabla.keys();
 
+        while(keys.hasMoreElements()){
+            aux = keys.nextElement();
+            System.out.println(aux+" = "+tabla.get(aux));
+        }
     }
 }
