@@ -6,6 +6,7 @@
 ./miPrincipal/TestVector.java
 ./miPrincipal/Principal.java
 ./miPrincipal/DemoStack.java
+./miPrincipal/DemoLinkedListCuadrupedos.java
 ./miPrincipal/DemoListaSimple.java
 ./miPrincipal/Persona.java
 ./miPrincipal/Lista.java
