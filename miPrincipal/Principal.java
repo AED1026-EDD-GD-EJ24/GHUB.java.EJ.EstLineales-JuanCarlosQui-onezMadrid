@@ -21,7 +21,8 @@ public class Principal {
             System.out.println(" 9) Lista simplemente enlazada");
             System.out.println(" 10) Lista simplemente enlazada");
             System.out.println(" 11) Arraylist Personas");
-
+            System.out.println("12) LinkedList Cuadrúpedos");
+            System.out.println(" 13) Lista de contactos");
             System.out.println();
 
             System.out.println("0) SALIR");
