@@ -58,6 +58,37 @@ public class ListaDeContactos {
     public boolean eliminarContacto(String nombres, String apellidos)throws PosicionIlegalException{
         Contacto con = buscarContacto(nombres, apellidos);
         if(con != null){
-           // contactos.eliminar(con);
-            //return true;
+            for(int i = 0; i < this.contactos.getTamanio(); i++){
+                Contacto contAux = contactos.getValor(i);
+                if(nombres.equals(contAux.getNombres()) && apellidos.equals(contAux.getApellidos())){
+                    contactos.remover(i);      
+                }
+            }
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+
+        public boolean modificarContacto(String nombres, String apellidos, String direccion, String correo,
+        String telefono, String celular)throws PosicionIlegalException{
+        //Verifica si el contacto existe
+        Contacto con = buscarContacto(nombres, apellidos);
+            if(con == null){
+                return false;
+            }else{
+                //Modifica los nuevos datos del contacto
+                con.setDireccion(direccion);
+                con.setCorreo(correo);
+                con.setTelefono(telefono);
+                con.setCelular(celular);
+                return true;
+            }
+
+
+        }
+
+
 }
+    
