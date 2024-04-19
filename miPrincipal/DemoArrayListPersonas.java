@@ -39,16 +39,7 @@ public class DemoArrayListPersonas {
            e.printStackTrace();
         }
 
-
-
-
-
-
-
-
-
-
-
+        ldc.modificarContacto("Federica", "Cardenas", "C15 No. 12 Culiacan","","","");
 
     }
 }
