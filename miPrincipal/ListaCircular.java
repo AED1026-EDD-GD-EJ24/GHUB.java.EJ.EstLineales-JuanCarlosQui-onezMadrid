@@ -1,13 +1,14 @@
 package miPrincipal;
 
-public class Lista<T> {
-    //Atributos 
+public class ListaCircular <T>{
+
+        //Atributos 
     //primer nodo de la lista
     private Nodo<T> cabeza;
     // total de elementos en la lista
     private int tamanio;
     //Constructor por defecto
-    public Lista(){
+    public ListaCircular(){
         cabeza= null;
         tamanio = 0;
     }
