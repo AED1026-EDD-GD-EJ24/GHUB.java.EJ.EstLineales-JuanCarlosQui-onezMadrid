@@ -132,6 +132,9 @@ public class ListaCircular <T>{
         tamanio=0;
 
     }
+´
+//nuevo.setAnterior(aux);// enlazar el primero con el ultimo y el ultimo con el primero
+//nuevo.setAnterior(ultimo);
 
 
 }
