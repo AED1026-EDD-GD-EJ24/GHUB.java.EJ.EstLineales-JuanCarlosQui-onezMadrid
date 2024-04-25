@@ -135,6 +135,10 @@ public class ListaCircular <T>{
 ´
 //nuevo.setAnterior(aux);// enlazar el primero con el ultimo y el ultimo con el primero
 //nuevo.setAnterior(ultimo);
+//Lista Doble circular por hacer 
+
+//Lista Doble Circular
+
 
 
 }
