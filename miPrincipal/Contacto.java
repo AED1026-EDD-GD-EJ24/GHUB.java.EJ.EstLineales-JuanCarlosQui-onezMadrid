@@ -8,8 +8,9 @@ public class Contacto {
     private String telefono;
     private String celular;
     //Metodos
-    //constructor
-    public Contacto(String nombres, String apellidos, String direccion, String correo, String telefono, String celular) {
+    //Constructos
+    public Contacto(String nombres, String apellidos, String direccion,
+            String correo, String telefono, String celular) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.direccion = direccion;
@@ -17,7 +18,7 @@ public class Contacto {
         this.telefono = telefono;
         this.celular = celular;
     }
-    //getters y setters
+    //getter y setter
     public String getNombres() {
         return nombres;
     }
@@ -56,9 +57,10 @@ public class Contacto {
     }
     @Override
     public String toString() {
-        return "Contacto [nombres=" + nombres + ", apellidos=" + apellidos + ", direccion=" + direccion + ", correo="
-                + correo + ", telefono=" + telefono + ", celular=" + celular + "]";
+        return nombres + " " + apellidos + " " + direccion + " "
+                + correo + " " + telefono + " " + celular + "\n";
     }
     
-
+    
+    
 }
