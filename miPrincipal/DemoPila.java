@@ -22,5 +22,4 @@ public class DemoPila{
         System.out.println("El tope de la pilar es "+pila.cima());
 
     }
-
 }

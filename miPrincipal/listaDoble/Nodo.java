@@ -37,6 +37,4 @@ public class Nodo<T>{
         this.anterior = anterior;
     }
     
-    
-    
 }

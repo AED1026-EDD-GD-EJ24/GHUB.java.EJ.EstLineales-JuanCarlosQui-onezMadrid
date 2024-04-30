@@ -31,7 +31,5 @@ public class DemoCola {
         System.out.println("El primer elemento de la cola es:"+
         cola.frente());
 
-
-
     }
 }

@@ -34,8 +34,6 @@ public class DemoListaSimple {
         System.out.println("Dato posicion 1: "+lista.getValor(1));
         System.out.println("Dato posicion 2: "+lista.getValor(2));
 
-
-
     }
     
 }

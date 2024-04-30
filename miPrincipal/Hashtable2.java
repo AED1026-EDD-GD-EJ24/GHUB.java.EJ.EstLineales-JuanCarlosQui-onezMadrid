@@ -32,8 +32,4 @@ public class Hashtable2<T>{
         return claves;
 
     }
-
-
-
-
 }

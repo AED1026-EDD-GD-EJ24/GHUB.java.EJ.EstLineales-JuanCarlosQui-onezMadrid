@@ -96,10 +96,5 @@ public class ListaDeContactos {
                 con.setCelular(celular);
                 return true;
             }
-
     }
-
-    
-
-    
 }

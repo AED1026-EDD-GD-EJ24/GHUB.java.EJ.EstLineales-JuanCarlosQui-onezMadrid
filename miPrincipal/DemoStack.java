@@ -27,9 +27,6 @@ public class DemoStack {
         System.out.println("El elemento del tope ="+pila.peek());
         pila.pop();
         System.out.println("El elemento del tope ="+pila.peek());
-
-
-        
-    }
     
+    }
 }

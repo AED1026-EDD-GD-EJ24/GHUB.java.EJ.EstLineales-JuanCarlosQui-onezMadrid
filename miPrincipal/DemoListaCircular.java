@@ -36,7 +36,5 @@ public class DemoListaCircular {
             System.out.println("Elemento "+i+":"+lc.getValor(i));
 
         }
-
     }
-    
 }
