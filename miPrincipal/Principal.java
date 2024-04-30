@@ -19,10 +19,15 @@ public class Principal {
             System.out.println(" 7) Tablas de Dispersion");
             System.out.println(" 8) Estructura Combinada");
             System.out.println(" 9) Lista simplemente enlazada");
-            System.out.println(" 10) Lista simplemente enlazada");
-            System.out.println(" 11) Arraylist Personas");
+            System.out.println("10) ArrayList y LinkedList");
+            System.out.println("11) ArrayList de Personas");
             System.out.println("12) LinkedList Cuadrúpedos");
-            System.out.println(" 13) Lista de contactos");
+            System.out.println("13) Lista de Contactos");
+            System.out.println("14) Lista Doblemente Ligada");
+            System.out.println("15) Lista Circular");
+            System.out.println("16) Lista Doble Circular");
+
+
             System.out.println();
 
             System.out.println("0) SALIR");
@@ -54,11 +59,26 @@ public class Principal {
                 case 9:
                      DemoListaSimple.menu();
                      break;
-                     case 10:
-                     DemoListaDoble.menu();
+                case 10:
+                     DemoArrayListyLinkedList.menu();
                      break;
-                  case 11:
+                case 11:
                      DemoArrayListPersonas.menu();
+                     break;
+                case 12:
+                     DemoLinkedListCuadrupedos.menu();
+                     break;
+                case 13:
+                     DemoListaDeContactos.menu();
+                     break;
+                case 14:
+                     DemoListaDobleLigada.menu();
+                     break;
+                case 15:
+                     DemoListaCircular.menu();
+                     break;
+                case 16:
+                     DemoListaDobleCircular.menu();
                      break;
                 case 0:
                     System.out.println("ADIOS!");
