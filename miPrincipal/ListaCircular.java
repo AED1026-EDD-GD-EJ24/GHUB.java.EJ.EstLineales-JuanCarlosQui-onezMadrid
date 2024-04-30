@@ -132,7 +132,16 @@ public class ListaCircular <T>{
         tamanio=0;
 
     }
-´
+    //imprimir la lista
+    public void imprimir(){
+        Nodo<T> aux = cabeza;
+        for(int i=0; i<tamanio; i++){
+            System.out.println(aux.getValor());
+            aux = aux.getSiguiente();
+        }
+    }
+    
+
 //nuevo.setAnterior(aux);// enlazar el primero con el ultimo y el ultimo con el primero
 //nuevo.setAnterior(ultimo);
 //Lista Doble circular por hacer 

@@ -1,4 +1,4 @@
-package cuadrupedo;
+package Cuadrupedo;
 
 public class cuadrupedo {
     private int idCuadrupedo;

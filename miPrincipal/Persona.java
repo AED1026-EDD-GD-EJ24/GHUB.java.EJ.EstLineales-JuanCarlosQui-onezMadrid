@@ -32,4 +32,5 @@ public class Persona {
         return nombre + ", " + edad + "," + Nacionalidad;
     }
     
+}
   
